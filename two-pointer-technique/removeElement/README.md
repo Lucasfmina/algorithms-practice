@@ -8,7 +8,7 @@ Change the array nums such that the first k elements of nums contain the element
 Return k.
 Custom Judge:
 
-The judge will test your solution with the following code:
+```The judge will test your solution with the following code:
 
 int[] nums = [...]; // Input array
 int val = ...; // Value to remove
@@ -23,3 +23,4 @@ for (int i = 0; i < actualLength; i++) {
     assert nums[i] == expectedNums[i];
 }
 If all assertions pass, then your solution will be accepted.
+```
